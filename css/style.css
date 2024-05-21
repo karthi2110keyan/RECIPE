@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+header{
+    width:100dvw;
+    height:80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+}
+
+.burger-box{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+   align-items: center;
+   justify-content: center;
+}
+
+span{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    border-radius: 5px;
+     
+}
+.search-box{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    background-image: url(../icons/search.svg);
+    background-size : 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bookmark-box{
+    background-color: white;
+
+    width: 40px;
+    height: 40px;
+    background-image: url(../icons/bookmark-fill.svg);
+    background-size : 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.icons{
+    display: flex;
+    gap: 10px;
+}
+
+h1{
+    margin: 1rem 1rem;
+}
+
+
+
+aside{
+    width: 100dvw;
+    height: 250px;
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navi{
+    position: absolute;
+    width:100vw ;
+    height: 30px;
+ 
+    top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.ad_slide{
+    scroll-snap-type: x mandatory;
+    width: 350px;
+    height: 250px;
+    overflow: scroll;
+    display: flex;
+   flex-wrap: nowrap;
+   gap: 100px;
+  
+  
+}
+
+.n{
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    border: 3px solid black;
+}
+
+.slide{
+    min-width:350px;
+    height: 250px;
+    background-color:transparent;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 20px;
+    scroll-snap-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+main{
+    height:150dvh;
+}
+.category-box{
+    height: 150px;
+    width: 100dvw;
+   
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0rem 1rem;
+    overflow: scroll;
+    gap: 15px;
+}
+
+.category{
+    min-width: 150px;
+    height: 120px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    display: flex;
+    align-items: flex-end;
+   
+    position: relative;
+    
+}
+.category:hover{
+    filter: none;
+}
+.para{
+    color: white;
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 1px 1pxblack;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+.populor-dish{
+    width: 100dvw;
+    height: 250px;
+    display: flex;
+   align-items: center;
+   padding: 0rem 1rem;
+    gap:20px;
+    overflow: scroll;
+}
+
+.populornames{
+    min-width:250px ;
+    height: 210px;
+    background-color: white;
+    border-radius: 20px;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.indian-dish{
+    width: 100vw;
+    height: 150px;
+    
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    overflow: scroll;
+    padding: 1rem;
+}
+.dessert{
+    min-width: 150px;
+    height: 120px;
+    background-color: white;
+    border-radius: 20px;
+  
+    display: flex;
+    align-items: flex-end;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    position: relative;
+    background-size: cover;
+}
+
+
